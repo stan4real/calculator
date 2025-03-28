@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="inputVal">
+            <textarea class="#input" readonly value="" rows="2" cols="20"></textarea>
+        </div>
+        <div class="grid-container">
+            <button value="" class="top-operands" id="clear">C</button>  
+            <button value="" class="top-operands" id="backspace">&#x2190</button>
+            <button value="(" class="top-operands" id="para1">(</button>
+            <button value=")" class="top-operands"  id="para1">)</button>
+
+            <button value="7" id="7">7</button>
+            <button value="8" id="8">8</button>
+            <button value="9" id="9">9</button>
+            <button value="*" class="side-operands"  id="multiply">x</button>
+
+            <button value="4" id="4">4</button>
+            <button value="5" id="5">5</button>
+            <button value="6" id="6">6</button>
+            <button value="/" class="side-operands" id="divide">/</button>
+
+            <button value="1" id="1">1</button>
+            <button value="2" id="2">2</button>
+            <button value="3" id="3">3</button>
+            <button value="+" class="side-operands" id="add">+</button>
+
+            <button value="." class="side-operands" id="dot">.</button>
+            <button value="0" id="0">0</button> 
+            <button value="=" class="side-operands" id="equal">=</button>
+            <button value="-" class="side-operands" id="subtract">-</button>
+        </div>
+    </div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous">
+    </script>
+    <script src="calculator.js"></script>
+</body>
+</html>
