@@ -2,11 +2,6 @@
 
 body{
     background-color: #231f2b;
-    
-  }
-  
-  p {
-    text-align: center;
   }
   
   div.calculator {
@@ -19,8 +14,8 @@ body{
     
     height: auto;
     padding:5px;
-    /* box-shadow: 2px 2px 5px gray; */
   }
+
   .grid-container{
     box-sizing: border-box;
     width: 100%;
@@ -102,4 +97,16 @@ body{
   }
   .side-operands:active{
     background-color: #595887;
+  }
+
+  @media(max-width:700px){
+    button:hover{
+      background-color: #2d2838;
+    }
+    .side-operands:hover{
+      background-color: #7e7da8;
+    }
+    .top-operands:hover{
+      background-color: #626084;
+    }
   }
