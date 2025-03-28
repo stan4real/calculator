@@ -38,7 +38,7 @@ body{
     margin: 5px; 
     cursor: pointer;
     transition: 0.2s;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     display: flex;
     justify-content: center;
     align-items: center;
