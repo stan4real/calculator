@@ -13,6 +13,7 @@ body{
     min-width: 320px;
     height: auto;
     padding:5px;
+    touch-action: manipulation;
   }
 
   .grid-container{
@@ -24,6 +25,7 @@ body{
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    
   }
   button {
     background-color: #2d2838;
@@ -37,13 +39,13 @@ body{
     border-radius: 50%;
     margin: 5px; 
     cursor: pointer;
-    transition: 0.2s;
     font-family: "Montserrat", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     -webkit-tap-highlight-color: transparent;
     transition: all 150ms ease;
+    
   }
 
   button:active {
