@@ -13,7 +13,7 @@ body{
     min-width: 320px;
     height: auto;
     padding:5px;
-    /* touch-action: manipulation; */
+    touch-action: manipulation;
   }
 
   .grid-container{
@@ -43,9 +43,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    -webkit-tap-highlight-color: transparent;
     transition: all 150ms ease;
-    
   }
 
   button:active {
