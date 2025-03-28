@@ -44,7 +44,6 @@ body{
     align-items: center;
     -webkit-tap-highlight-color: transparent;
     transition: all 150ms ease;
-    touch-action: manipulation;
   }
 
   button:active {
